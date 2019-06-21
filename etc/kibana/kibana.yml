@@ -16,8 +16,10 @@ opendistro_security.readonly_mode.roles: ["kibana_read_only"]
 
 server.host: "0.0.0.0"
 
+#Solución errores de exceso de tiempo
 elasticsearch.requestTimeout: 90000
 
+#HTTPS en Kibana
 server.ssl.enabled: true
 server.ssl.key: /etc/kibana/privkey.pem
 server.ssl.certificate: /etc/kibana/fullchain.pem
