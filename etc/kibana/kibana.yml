@@ -15,3 +15,5 @@ opendistro_security.readonly_mode.roles: ["kibana_read_only"]
 #server.ssl.certificate: /etc/elasticsearch/odfe-node1.pem
 
 server.host: "0.0.0.0"
+
+elasticsearch.requestTimeout: 90000
